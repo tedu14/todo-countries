@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    line-height: 1;
+    letter-spacing: 1.6px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 10px auto;
+}
+
+h5 {
+    margin: 10px auto;
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+}
+
+img {
+    width: 50px;
+    height: 25px;
+    margin: 0 10px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.container {
+    width: 95%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 5px auto;
+}
+
+.content .box {
+    background-color: #ccc;
+    border-radius: 12px;
+    padding: 5px;
+    border: 1px solid #cdcd;
+    margin: 10px auto;
+    width: 300px;
+}
+
+.country, .favorite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.btn {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.add {
+    background-color: #1d6911;
+}
+
+.remove {
+    background-color: #7c1c1c;
+}
